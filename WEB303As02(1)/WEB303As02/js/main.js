@@ -5,11 +5,11 @@
     });
     $("#convert").click(function(event){
         event.preventDefault();
-        loadContent("prospect.html")
+        loadContent("convert.html")
     });
     $("#retain").click(function(event){
         event.preventDefault();
-        loadContent("prospect.html")
+        loadContent("retain.html")
     });
  })
  function loadContent(page){
