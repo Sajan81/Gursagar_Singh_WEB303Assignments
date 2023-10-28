@@ -1,0 +1,67 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: rgb(249, 167, 152);
+    
+}
+
+h1, h2 {
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+    margin-left: 100px;
+    width: auto;
+}
+
+button {
+    width: 100%;
+    background-color: rgb(232, 249, 217);
+    font-size: 2em;
+    font-style: italic;
+}
+img{
+    margin-left: 100px;
+    width: 400px;
+    height: 400px;
+}
+.accord-panel{
+    display: none;
+    width: 500px;
+    margin-left: 500px;
+}
+.accord-label{
+    width: 500px;
+    margin-left: 500px;
+}
+.accord{
+    list-style-type: none;
+}
+
+.tab-list {
+    margin: 0;
+    padding: 0;
+    margin-left: 480px;
+}
+
+.tab-list li {
+    display: inline-block;
+    background-color: bisque;
+   
+}
+
+.tab-list li a{
+    display: block;
+    color: rgb(0, 94, 255);
+    padding:  10px;
+}
+.tab-panel{
+    width: 639px;
+    background-color:  rgb(248, 141, 141);
+    margin-left: 480px;
+}
+.tab-list li.active{
+    background-color: rgb(248, 141, 141);
+}
